@@ -1,0 +1,39 @@
+body {
+  background: #121212;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #0ff;
+  text-align: center;
+  width: 300px;
+}
+
+input, select, button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+}
+
+input, select {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+button {
+  background: #00f5d4;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}

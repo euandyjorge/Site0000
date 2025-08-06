@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Gamer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Escolha a forma de login</h2>
+    <select id="loginType">
+      <option value="email">Email e Senha</option>
+      <option value="google">Google (em breve)</option>
+    </select>
+
+    <form action="enviar.php" method="POST">
+      <input type="email" name="email" placeholder="Digite seu email" required>
+      <input type="password" name="senha" placeholder="Digite sua senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</body>
+</html>
